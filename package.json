@@ -1,0 +1,23 @@
+{
+  "name": "shopping-cart-drag-and-drop",
+  "version": "1.0.0",
+  "description": "Shopping cart with drag and drop API",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./ -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisgrim/shopping-cart-drag-and-drop.git"
+  },
+  "author": "Cristina Grim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisgrim/shopping-cart-drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/crisgrim/shopping-cart-drag-and-drop#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
