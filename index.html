@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping center</h1>
+        <h2>Drag and Drop API</h2>
+        <ul class="products__list">
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-1" draggable="true" src="img/burger.png" alt="Burger" data-price="8.00"/>
+                <h3>Burger</h3>
+                <p>Price: 8.00€</p>
+            </li>
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-2" draggable="true" src="img/hot-dog.png" alt="Hot Dog" data-price="5.00"/>
+                <h3>Hot Dog</h3>
+                <p>Price: 5.00€</p>
+            </li>
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-3" draggable="true" src="img/pizza.png" alt="Pizza" data-price="10.00"/>
+                <h3>Pizza</h3>
+                <p>Price: 10.00€</p>
+            </li>
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-4" draggable="true" src="img/french-fries.png" alt="French fries" data-price="5.00"/>
+                <h3>French fries</h3>
+                <p>Price: 5.00€</p>
+            </li>
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-5" draggable="true" src="img/popcorn.png" alt="Pop corn" data-price="5.00"/>
+                <h3>Pop corn</h3>
+                <p>Price: 5.00€</p>
+            </li>
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-6" draggable="true" src="img/piece-of-cake.png" alt="Piece of cake" data-price="8.00"/>
+                <h3>Piece of cake</h3>
+                <p>Price: 8.00€</p>
+            </li>
+            <li class="products__list-item">
+                <img class="products__list-item__image" id="item-7" draggable="true" src="img/cupcake.png" alt="Cupcake" data-price="3.00"/>
+                <h3>Cupcake</h3>
+                <p>Price: 3.00€</p>
+            </li>
+        </ul>
+        <div class="shopping-cart">
+            <p class="shopping-cart__total-price">Total price: <span id="total">0 €</span></p>
+        </div>
+    </div>
+    <a class="icons-author" href="https://www.flaticon.com/authors/adib-sulthon">Icons created by Adib Sulthon - Flaticon</a>
+    <script src="js/main.js"></script>
+</body>
+</html>
